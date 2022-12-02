@@ -47,7 +47,7 @@ describe('REST API', () => {
   });
 
   test('finds a single customer', async () => {
-    let response = await request.get('/customer/2';)
+    let response = await request.get('/customer');
   });
 
 });
